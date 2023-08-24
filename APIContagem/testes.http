@@ -1,0 +1,5 @@
+@urlHealthCheck=https://localhost:7201/Status
+
+curl -X 'GET' \
+  '{{urlHealthCheck}}' \
+  -H 'accept: text/plain'
